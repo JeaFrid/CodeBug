@@ -1,0 +1,5 @@
+-image('id'){
+  <#height:Auto#>
+  <#width:Auth#>
+  <#picture:$value#>
+  }

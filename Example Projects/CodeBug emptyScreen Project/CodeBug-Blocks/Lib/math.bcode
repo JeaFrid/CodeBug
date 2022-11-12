@@ -1,0 +1,2 @@
+math:$value
+<#math($number):$value#>

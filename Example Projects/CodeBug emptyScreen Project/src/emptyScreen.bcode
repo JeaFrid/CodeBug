@@ -1,0 +1,6 @@
+<#component(1)(label1):parameter[<#click>]go=startTag#>
+
+ <startTag[<#null>]>
+    <#text1:Merhaba ByBug!#>
+    <#text:$text1#>
+ <startTag#>

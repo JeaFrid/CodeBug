@@ -1,0 +1,32 @@
+CodeBug=GO!
+*-*Screen1*-*
+*-*An example screen. We just made a titleBar. We see the Label click event in the bcode extension file.*-*
+
+column('column1'){
+ <#backgroundColor:transparent#>
+ <#scroll:false#>
+ <#height:FillParent#>
+ <#width:FillParent#>
+ <#aligment:top#>
+ },
+    row('row1'){
+    <#backgroundColor:transparent#>
+    <#scroll:false#>
+    <#height:FillParent#>
+    <#width:FillParent#>
+    <#aligment:center#>
+    },
+    space('space1'){
+     <#height:Auto#>
+     <#width:FillParent#>
+     },
+        label('label1'){
+         <#backgroundColor:transparent#>
+         <#text:ByBug CodeBug Example#>
+         <#textColor:black#>
+         <#fontSize:14#>
+         },
+    space('space1'){
+     <#height:Auto#>
+     <#width:FillParent#>
+     },
