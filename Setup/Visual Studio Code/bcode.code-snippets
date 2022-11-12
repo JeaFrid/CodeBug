@@ -22,7 +22,8 @@
 	"veriablesBlocks":{"prefix": "veriable","body": "<#$tag:$global#>"},
 //-- -- -- -- -- Procedure Blocks -- -- -- -- --
 	"procedureBlocks":{"prefix": "procedure","body": "<#procedure($number):go=$tag#>\n<$tag[<#veriable>]>\n<$tag#>"},
-
+// -- -- -- -- -- Components -- -- -- -- --
+	"Components":{"prefix": "component","body": "<#component($number)($id):parameter[<#$veriable>]go=$tag#>\n\n <$tag[<#veriable>]>\n\n <$tag#>"},
 
 
 
