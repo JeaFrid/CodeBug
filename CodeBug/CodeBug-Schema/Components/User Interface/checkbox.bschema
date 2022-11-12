@@ -1,0 +1,7 @@
+-checkbox('id'){
+  <#Checked:$value#>
+  <#backgroundColor:$value#>
+  <#text:$value#>
+  <#textColor:$value#>
+  <#fontSize:$value#>
+  }

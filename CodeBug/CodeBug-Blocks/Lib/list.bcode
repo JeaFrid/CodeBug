@@ -1,0 +1,18 @@
+list:
+<#list($number):[<#item1><#item2>]#>
+
+select list item:
+*-*get first item.*-*
+<#list($number).get($path).1#>
+
+add item:
+<#list($number).add($path)<#text:$value#>#>
+
+in list?:
+<#list($number).in($path)<#input:$value#>#>
+
+length:
+<#list($number).length($path)>
+
+remove item:
+<#list($number).remove($path)<#math:$value#>#>

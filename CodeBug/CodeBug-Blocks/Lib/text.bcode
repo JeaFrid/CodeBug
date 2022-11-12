@@ -1,0 +1,22 @@
+text:
+<#text($number):$value#>
+
+join:
+<#text($number1):$value#>
+<#text($number2):$value#>
+<#return($number):number1+number2($path)#>
+
+length:
+<#text($number).length($path)#>
+
+isString:
+<#text($number).isString($path)#>
+
+split:
+<#text($number).split($path)($value)(' ')#>
+
+contains:
+<#text($number).contains($path)($value)#>
+
+replace
+<#text($number).replace($path)(' ','')#>

@@ -1,0 +1,7 @@
+-card('id'){
+  <#backgroundColor:$value#>
+  <#elevation:$value#>
+  <#radius:$value#>
+  <#height:$value#>
+  <#width:$value#>
+  }

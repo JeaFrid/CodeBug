@@ -1,0 +1,6 @@
+-column('id'){
+  <#backgroundColor:$value#>
+  <#scroll:$value#>
+  <#height:$value#>
+  <#width:$value#>
+  }

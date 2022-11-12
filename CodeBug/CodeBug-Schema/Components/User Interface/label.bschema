@@ -1,0 +1,6 @@
+-label('id'){
+  <#backgroundColor:$value#>
+  <#text:$value#>
+  <#textColor:$value#>
+  <#fontSize:$value#>
+  }

@@ -1,0 +1,7 @@
+-textbox('id'){
+  <#backgroundColor:$value#>
+  <#hint:$value#>
+  <#text:$value#>
+  <#textColor:$value#>
+  <#fontSize:$value#>
+  }
