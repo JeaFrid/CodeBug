@@ -1,0 +1,28 @@
+{
+	"create":{"prefix": "","body": ""},
+// -- -- -- -- -- User Interface -- -- -- -- --
+	"button schemas":{"prefix": "button","body": "button('id'){\n <#backgroundColor:$value#>\n <#text:$value#>\n <#textColor:$value#>\n <#fontSize:$value#>\n }"},
+	"checkbox schemas":{"prefix": "checkbox","body": "checkbox('id'){\n <#Checked:$value#>\n <#backgroundColor:$value#>\n <#text:$value#>\n <#textColor:$value#>\n <#fontSize:$value#>\n }"},
+	"circularProgress schemas":{"prefix": "circularProgress","body": "circularProgress('id'){\n <#Color:$value#>\n }"},
+	"image schemas":{"prefix": "image","body": "image('id'){\n <#height:Auto#>\n <#width:Auth#>\n <#picture:$value#>\n }"},
+	"label schemas":{"prefix": "label","body": "label('id'){\n <#backgroundColor:$value#>\n <#text:$value#>\n <#textColor:$value#>\n <#fontSize:$value#>\n }"},
+	"textbox schemas":{"prefix": "textbox","body": "textbox('id'){\n <#backgroundColor:$value#>\n <#hint:$value#>\n <#text:$value#>\n <#textColor:$value#>\n <#fontSize:$value#>\n }"},
+// -- -- -- -- -- Layout -- -- -- -- --
+	"card schemas":{"prefix": "card","body": "card('id'){\n <#backgroundColor:$value#>\n <#elevation:$value#>\n <#radius:$value#>\n <#height:$value#>\n <#width:$value#>\n }"},
+	"column schemas":{"prefix": "column","body": "column('id'){\n <#backgroundColor:$value#>\n <#scroll:$value#>\n <#height:$value#>\n <#width:$value#>\n }"},
+	"row schemas":{"prefix": "row","body": "row('id'){\n <#backgroundColor:$value#>\n <#scroll:$value#>\n <#height:$value#>\n <#width:$value#>\n }"},
+	"space schemas":{"prefix": "space","body": "space('id'){\n <#height:$value#>\n <#width:$value#>\n }"},
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

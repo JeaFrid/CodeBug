@@ -1,0 +1,34 @@
+{
+	"create":{"prefix": "","body": ""},
+//-- -- -- -- -- Text Blocks -- -- -- -- --
+	"textBlocks":{"prefix": "text","body": "<#text($number):$value#>"},
+	"joinBlocks":{"prefix": "join","body": "<#return($number):$number1+$number2($path)#>"},
+	"lengthBlocks":{"prefix": "length","body": "<#text($number).length($path)#>"},
+	"isStringBlocks":{"prefix": "isString","body": "<#text($number).isString($path)#>"},
+	"splitBlocks":{"prefix": "split","body": "<#text($number).split($path)($value)('')#>"},
+	"containsBlocks":{"prefix": "contains","body": "<#text($number).contains($path)($value)#>"},
+	"replaceBlocks":{"prefix": "replace","body": "<#text($number).replace($path)(' ','')#>"},
+//-- -- -- -- -- List Blocks -- -- -- -- --
+	"listBlocks":{"prefix": "list","body": "<#list($number):[<#$item1><#$item2>]#>"},
+	"selectItemBlocks":{"prefix": "selectItem","body": "<#list($number).get($path).$itemNumber#>"},
+	"addBlocks":{"prefix": "add","body": "<#list($number).add($path)<#text:$value#>#>"},
+	"inListBlocks":{"prefix": "inList","body": "<#list($number).in($path)<#input:$value#>#>"},
+	"lengthListBlocks":{"prefix": "lengthList","body": "<#list($number).length($path)>"},
+	"removeListBlocks":{"prefix": "removeList","body": "<#list($number).remove($path)<#math:$value#>#>"},
+//-- -- -- -- -- Math Blocks -- -- -- -- --
+	"mathBlocks":{"prefix": "math","body": "math:$value"},
+	"mathProcedureBlocks":{"prefix": "math","body": "<#math($number):$value#>"},
+//-- -- -- -- -- Veriables Blocks -- -- -- -- --
+	"veriablesBlocks":{"prefix": "veriable","body": "<#$tag:$global#>"},
+//-- -- -- -- -- Procedure Blocks -- -- -- -- --
+	"procedureBlocks":{"prefix": "procedure","body": "<#procedure($number):go=$tag#>\n<$tag[<#veriable>]>\n<$tag#>"},
+
+
+
+
+
+
+
+
+
+}
