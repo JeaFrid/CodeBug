@@ -1,4 +1,4 @@
-version: 1.0 Beta | Last update: 11/14/2022 02:19
+version: 1.1 Beta | Last update: 11/14/2022 02:19
 # What is CodeBug?
 
 **Lightweight, fast and easy software development tool.**
