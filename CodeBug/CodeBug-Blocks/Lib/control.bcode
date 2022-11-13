@@ -1,0 +1,24 @@
+Control = If:
+
+<#control(if)($condition)go=$tag1#>
+<$tag1>
+<$tag1#>
+<#control(else)go=$tag2#>
+<$tag2>
+<$tag2#>
+
+Control = Open Another Screen:
+
+<#control(open)($screenName)#>
+
+Control = Close Screen:
+
+<#control(close)($screenName)#>
+
+Control = Import:
+
+<#import($number):$libraries#>
+
+Control = Finish Code:
+
+<#finish#>
