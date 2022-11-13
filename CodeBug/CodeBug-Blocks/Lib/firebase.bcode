@@ -1,0 +1,26 @@
+-- -- -- -- -- -- Import -- -- -- -- -- --
+firebase import:
+<#import(1):firebase#>
+
+-- -- -- -- -- -- firebaseAuth -- -- -- -- -- --
+login:
+<#firebaseAuth(login)<e-mail:$value><password:$value>#>
+
+signUp:
+<#firebaseAuth(signUp)<e-mail:$value><password:$value>#>
+
+getIdToken:
+<#firebaseAuth(getIdToken)($number):go=$tag#>
+<$tag[<#IdToken>]>
+<$tag#>
+-- -- -- -- -- -- firebaseDatabase -- -- -- -- -- --
+storeValue:
+<#firebaseDatabase(storeValue)<$tag:$value>#>
+
+getValue:
+<#firebaseDatabase(getValue)($number):go=$tag#>
+<$tag[<#Tag><#Value>]>
+<$tag#>
+
+remove:
+<#firebaseDatabase(remove)($number)<$tag>#>
