@@ -29,6 +29,8 @@ These folders can serve as an introduction in any compiler or factory.
 
 `Assets`: You can add images, files or extensions you need to this folder. This folder is required for the compiler to understand the path of the assets. You can create it manually inside the project folder. But make sure its name is "assets".
 
+`Factories`: Factories are code snippets that can be called externally. Even if you didn't call a factory from this folder, you still have to add the folder to your project. Otherwise, the compiler will cause problems. You can get this folder on Github from https://github.com/JeaFrid/CodeBug path.
+
 `Src`:The "src" folder is the most important folder. Here you have your source codes and here you write code. Create this folder manually and put the code files in it.
 
 ## What is a code file?
