@@ -1,3 +1,4 @@
+version: 1.0 Beta
 # What is CodeBug?
 
 **Lightweight, fast and easy software development tool.**
