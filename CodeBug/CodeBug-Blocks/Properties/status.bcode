@@ -1,0 +1,7 @@
+now | .now | take any action now
+alpha | .alpha($value) | Sets the transparency of a color.
+properties | .properties(<#$propertiesName:$boolean#>)  | Features for the procedure.
+go | go=$tag#>\n\n<$tag[<#veriable>]>\n\n<$tag#> | Road tag for an activity or procedure.
+input | $inputTag:$value | Any resource has value.
+
+

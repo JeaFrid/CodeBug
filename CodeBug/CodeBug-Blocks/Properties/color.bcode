@@ -1,0 +1,18 @@
+transparent | transparent.null | <#transparent#>
+white | white.alpha(255) | <#white#>
+red | red.alpha(255) | <#red#>
+blue | blue.alpha(255) | <#blue#>
+green | green.alpha(255) | <#green#>
+yellow | yellow.alpha(255) | <#yellow#>
+black | black.alpha(255) | <#black#>
+grey | grey.alpha(255) | <#grey#>
+orange | orange.alpha(255) | <#orange#>
+pink  | pink.alpha(255) | <#pink#>
+purple  | purple.alpha(255) | <#purple#>
+brown  | brown.alpha(255) | <#brown#>
+
+RGB:
+RGB(255, 255, 255)
+
+HEX:
+HEX(#ffffff)
