@@ -1,8 +1,8 @@
 version: 1.2 Beta | Last update: 11/14/2022 05:21
-Updated bcode-snippets file.
-Updated CodeBug-Blocks folder.
-firebase library has been updated.
-The control module has been updated.
+* Updated bcode-snippets file.
+* Updated CodeBug-Blocks folder.
+* * firebase library has been updated.
+* The control module has been updated.
 
 # What is CodeBug?
 
