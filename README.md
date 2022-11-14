@@ -1,4 +1,9 @@
-version: 1.1 Beta | Last update: 11/14/2022 02:19
+version: 1.2 Beta | Last update: 11/14/2022 05:21
+Updated bcode-snippets file.
+Updated CodeBug-Blocks folder.
+firebase library has been updated.
+The control module has been updated.
+
 # What is CodeBug?
 
 **Lightweight, fast and easy software development tool.**
