@@ -1,5 +1,4 @@
 {
-	"create":{"prefix": "","body": ""},
 //-- -- -- -- -- Text Blocks -- -- -- -- --
 	"textBlocks":{"prefix": "text","body": "<#text($number):$value#>"},
 	"joinBlocks":{"prefix": "join","body": "<#return($number):$number1+$number2($path)#>"},
@@ -8,7 +7,8 @@
 	"splitBlocks":{"prefix": "split","body": "<#text($number).split($path)($value)('')#>"},
 	"containsBlocks":{"prefix": "contains","body": "<#text($number).contains($path)($value)#>"},
 	"replaceBlocks":{"prefix": "replace","body": "<#text($number).replace($path)(' ','')#>"},
-//-- -- -- -- -- List Blocks -- -- -- -- --
+	"join short":{"prefix": "+","body": "number1+number2($path)#>"},	
+	//-- -- -- -- -- List Blocks -- -- -- -- --
 	"listBlocks":{"prefix": "list","body": "<#list($number):[<#$item1><#$item2>]#>"},
 	"selectItemBlocks":{"prefix": "selectItem","body": "<#list($number).get($path).$itemNumber#>"},
 	"addBlocks":{"prefix": "add","body": "<#list($number).add($path)<#text:$value#>#>"},
@@ -25,11 +25,32 @@
 // -- -- -- -- -- Components -- -- -- -- --
 	"Components":{"prefix": "component","body": "<#component($number)($id):parameter[<#$event>]go=$tag#>\n\n <$tag[<#veriable>]>\n\n <$tag#>"},
 
-
-
-
-
-
+// -- -- -- -- -- More -- -- -- -- --
+	"now Blocks":{"prefix": "now","body": "now"},
+	"alpha Blocks":{"prefix": "alpha","body": "alpha($value)"},
+	"properties Blocks":{"prefix": "properties","body": "properties(<#$propertiesName:$boolean#>)"},
+	"go Blocks":{"prefix": "go","body": "go=$tag#>\n\n<$tag[<#veriable>]>\n\n<$tag#>"},
+	"input Blocks":{"prefix": "input","body": "$inputTag:$value"},
+	"if Blocks":{"prefix": "if","body": "<#control(if)($condition)go=$tag1#>\n <$tag1>\n <$tag1#>\n <#control(else)go=$tag2#>\n <$tag2>\n <$tag2#>"},
+	"open Screen Blocks":{"prefix": "open","body": "<#control(open)($screenName)#>"},
+	"close Blocks":{"prefix": "close","body": "<#control(close)($screenName)#>"},
+	"import Blocks":{"prefix": "import","body": "<#import($number):$libraries#>"},
+	"procedure Blocks":{"prefix": "procedureProperties","body": "<$tag>\n procedure.properties(<#componentSupport:true#>)\n <$tag#>"},
+	"finish Blocks":{"prefix": "finish","body": "<#finish#>"},
+	"ShemaIn Blocks":{"prefix": "shemaIn","body": "procedure.properties(<#componentSupport:true#>)"},
+	"white Blocks":{"prefix": "white","body": "white"},
+	"red Blocks":{"prefix": "red","body": "red"},
+	"blue Blocks":{"prefix": "blue","body": "blue"},
+	"green Blocks":{"prefix": "green","body": "green"},
+	"yellow Blocks":{"prefix": "yellow","body": "yellow"},
+	"black Blocks":{"prefix": "black","body": "black"},
+	"grey Blocks":{"prefix": "grey","body": "grey"},
+	"orange Blocks":{"prefix": "orange","body": "orange"},
+	"pink Blocks":{"prefix": "pink","body": "pink"},
+	"purple Blocks":{"prefix": "purple","body": "purple"},
+	"brown Blocks":{"prefix": "brown","body": "brown"},
+	"RGB Blocks":{"prefix": "RGB","body": "RGB(255, 255, 255)"},
+	"HEX Blocks":{"prefix": "HEX","body": "HEX(#ffffff)"},
 
 
 }
