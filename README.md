@@ -3,6 +3,7 @@ version: 1.2 Beta | Last update: 11/14/2022 05:21
 * Updated CodeBug-Blocks folder.
 * firebase library has been updated.
 * The control module has been updated.
+* Properties folder has been updated.
 
 # What is CodeBug?
 
