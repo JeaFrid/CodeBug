@@ -19,6 +19,12 @@ Control = Import:
 
 <#import($number):$libraries#>
 
+Control = Schema in procedure:
+
+<$tag>
+procedure.properties(<#componentSupport:true#>)
+<$tag#>
+
 Control = Finish Code:
 
 <#finish#>
